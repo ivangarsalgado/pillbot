@@ -1,0 +1,191 @@
+{"comment" : "======PAGINA 0======"}
+
+{"comment" : "Encabezado"}
+{"page":0,"id":4,"obj":"btn","enabled":false,"x":0,"y":0,"w":840,"h":50,"bg_color":"#00A6FF","text":"","text_color":"#000000","radius":0,"border_side":0,"text_font":24}
+{"comment" : "Hora, actualizada dinamicamente"}
+{"page":0,"id":5,"obj":"label","x":10,"y":10,"w":150,"h":30,"bg_color":"#00A6FF","text_color":"#FFFFFF","align":0,"text_font":24, "text": "98:80:00", "template": "%H:%M"}
+{"comment" : "Informacion del tiempo actualizada dinamicamente"}
+{"page":0,"id":6,"obj":"label","x":640,"y":10,"w":150,"h":30,"bg_color":"#00A6FF","text":"{informacion relativa al tiempo}","text_color":"#FFFFFF","align":2,"text_font":24, "mode":"loop"}
+{"comment" : "Informacion de marca"}
+{"page":0,"id":7,"obj":"label","x":100,"y":10,"w":600,"h":30,"bg_color":"#00A6FF","text":"Pillbot","text_color":"#FFFFFF","align":1,"text_font":24}
+
+{"comment" : "Control de paginas"}
+{"page":0,"id":1,"obj":"btn","action":{"down": "page prev"},"x":0,"y":430,"w":266,"h":50,"bg_color":"#00A6FF","text":"\uE141","text_color":"#FFFFFF","radius":0,"border_side":0,"text_font":24}
+{"page":0,"id":2,"obj":"btn","action":{"down": "page back"},"x":266,"y":430,"w":268,"h":50,"bg_color":"#00A6FF","text":"\uE2DC","text_color":"#FFFFFF","radius":0,"border_side":0,"text_font":24}
+{"page":0,"id":3,"obj":"btn","action":{"down": "page next"},"x":534,"y":430,"w":266,"h":50,"bg_color":"#00A6FF","text":"\uE142","text_color":"#FFFFFF","radius":0,"border_side":0,"text_font":24}
+
+{"comment" : "======PAGINA 1======"}
+{"comment" : "Informacion comun"}
+{"page":1,"id":0,"prev":9}
+{"page":1,"id":1,"obj":"label","x":100,"y":70,"w":600,"h":50,"bg_color":"#00A6FF","text":"Tiempo para la proxima toma","text_color":"#000000","align":1,"text_font":30}
+{"page":1,"id":3,"obj":"label","x":100,"y":200,"w":600,"h":100,"bg_color":"#00A6FF","text":"00:00:00","text_color":"#000000","align":1,"text_font":80}
+{"page":1,"id":2,"obj":"bar","x":240,"y":197,"w":320,"h":100,"bg_color":"#00A6FF80","border_color":"#FFFFFF","val":32, "opacity":80, "radius":500}
+{"page":1,"id":10,"obj":"btn","x":300,"y":320,"w":200,"h":60,"radius":35,"bg_color":"#00A6FF","text":"\uE0ED Ver recetario","text_color":"#FFFFFF","text_font":24,"action":"p7"}
+
+{"page":2,"id":1,"obj":"label","x":100,"y":70,"w":600,"h":30,"bg_color":"#00A6FF","text":"Lunes","text_color":"#000000","align":1,"text_font":30}
+{"comment": "TabView para las tomas de pastillas"}
+{"page":2,"id":14,"obj":"tabview","x":10,"y":120,"w":780,"h":300, "bg_color":"#00A6FF80"}
+
+{"comment": "Pestañas dentro del TabView"}
+{"page":2,"id":51,"obj":"tab","parentid":14,"text":"Desayuno"}
+{"page":2,"id":52,"obj":"tab","parentid":14,"text":"Comida"}
+{"page":2,"id":53,"obj":"tab","parentid":14,"text":"Merienda"}
+{"page":2,"id":54,"obj":"tab","parentid":14,"text":"Cena"}
+
+{"comment": "Checkboxes para horarios en Mañana"}
+{"page":2,"id":101,"obj":"label","x":10,"y":10,"w":700,"h":30,"parentid":51,"text":"Adiro (ácido acetilsalicílico) | 100mg (1 cápsula) | 9:00","text_color":"#000000","align":0,"text_font":24}
+{"page":2,"id":201,"obj":"checkbox","x":700,"y":10,"w":30,"h":30,"parentid":51,"text":"","checked":false}
+{"page":2,"id":102,"obj":"label","x":10,"y":50,"w":700,"h":30,"parentid":51,"text":"Seguril (Furosemida) | 60 mg (1+1/2 comprimidos) | 9:00","text_color":"#000000","align":0,"text_font":24}
+{"page":2,"id":202,"obj":"checkbox","x":700,"y":60,"w":30,"h":30,"parentid":51,"text":"","checked":false}
+
+
+{"comment" : "======PAGINA 2======"}
+{"page":3,"id":1,"obj":"label","x":100,"y":70,"w":600,"h":30,"bg_color":"#00A6FF","text":"Martes","text_color":"#000000","align":1,"text_font":30}
+{"comment": "TabView para las tomas de pastillas"}
+{"page":3,"id":14,"obj":"tabview","x":10,"y":120,"w":780,"h":300, "bg_color":"#00A6FF80"}
+
+{"comment": "Pestañas dentro del TabView"}
+{"page":3,"id":51,"obj":"tab","parentid":14,"text":"Desayuno"}
+{"page":3,"id":52,"obj":"tab","parentid":14,"text":"Comida"}
+{"page":3,"id":53,"obj":"tab","parentid":14,"text":"Merienda"}
+{"page":3,"id":54,"obj":"tab","parentid":14,"text":"Cena"}
+
+{"comment": "Checkboxes para horarios en Mañana"}
+{"page":3,"id":101,"obj":"label","x":10,"y":10,"w":700,"h":30,"parentid":51,"text":"Adiro (ácido acetilsalicílico) | 100mg (1 cápsula) | 9:00","text_color":"#000000","align":0,"text_font":24}
+{"page":3,"id":201,"obj":"checkbox","x":700,"y":10,"w":30,"h":30,"parentid":51,"text":"","checked":false}
+{"page":3,"id":102,"obj":"label","x":10,"y":50,"w":700,"h":30,"parentid":51,"text":"Seguril (Furosemida) | 60 mg (1+1/2 comprimidos) | 9:00","text_color":"#000000","align":0,"text_font":24}
+{"page":3,"id":202,"obj":"checkbox","x":700,"y":60,"w":30,"h":30,"parentid":51,"text":"","checked":false}
+
+{"comment" : "======PAGINA 3======"}
+{"page":4,"id":1,"obj":"label","x":100,"y":70,"w":600,"h":30,"bg_color":"#00A6FF","text":"Miércoles","text_color":"#000000","align":1,"text_font":30}
+{"comment": "TabView para las tomas de pastillas"}
+{"page":4,"id":14,"obj":"tabview","x":10,"y":120,"w":780,"h":300, "bg_color":"#00A6FF80"}
+
+{"comment": "Pestañas dentro del TabView"}
+{"page":4,"id":51,"obj":"tab","parentid":14,"text":"Desayuno"}
+{"page":4,"id":52,"obj":"tab","parentid":14,"text":"Comida"}
+{"page":4,"id":53,"obj":"tab","parentid":14,"text":"Merienda"}
+{"page":4,"id":54,"obj":"tab","parentid":14,"text":"Cena"}
+
+{"comment": "Checkboxes para horarios en Mañana"}
+{"page":4,"id":101,"obj":"label","x":10,"y":10,"w":700,"h":30,"parentid":51,"text":"Adiro (ácido acetilsalicílico) | 100mg (1 cápsula) | 9:00","text_color":"#000000","align":0,"text_font":24}
+{"page":4,"id":201,"obj":"checkbox","x":700,"y":10,"w":30,"h":30,"parentid":51,"text":"","checked":false}
+{"page":4,"id":102,"obj":"label","x":10,"y":50,"w":700,"h":30,"parentid":51,"text":"Seguril (Furosemida) | 60 mg (1+1/2 comprimidos) | 9:00","text_color":"#000000","align":0,"text_font":24}
+{"page":4,"id":202,"obj":"checkbox","x":700,"y":60,"w":30,"h":30,"parentid":51,"text":"","checked":false}
+
+{"comment" : "======PAGINA 4======"}
+{"page":5,"id":1,"obj":"label","x":100,"y":70,"w":600,"h":30,"bg_color":"#00A6FF","text":"Jueves","text_color":"#000000","align":1,"text_font":30}
+{"comment": "TabView para las tomas de pastillas"}
+{"page":5,"id":14,"obj":"tabview","x":10,"y":120,"w":780,"h":300, "bg_color":"#00A6FF80"}
+
+{"comment": "Pestañas dentro del TabView"}
+{"page":5,"id":51,"obj":"tab","parentid":14,"text":"Desayuno"}
+{"page":5,"id":52,"obj":"tab","parentid":14,"text":"Comida"}
+{"page":5,"id":53,"obj":"tab","parentid":14,"text":"Merienda"}
+{"page":5,"id":54,"obj":"tab","parentid":14,"text":"Cena"}
+
+{"comment": "Checkboxes para horarios en Mañana"}
+{"page":5,"id":101,"obj":"label","x":10,"y":10,"w":700,"h":30,"parentid":51,"text":"Adiro (ácido acetilsalicílico) | 100mg (1 cápsula) | 9:00","text_color":"#000000","align":0,"text_font":24}
+{"page":5,"id":201,"obj":"checkbox","x":700,"y":10,"w":30,"h":30,"parentid":51,"text":"","checked":false}
+{"page":5,"id":102,"obj":"label","x":10,"y":50,"w":700,"h":30,"parentid":51,"text":"Seguril (Furosemida) | 60 mg (1+1/2 comprimidos) | 9:00","text_color":"#000000","align":0,"text_font":24}
+{"page":5,"id":202,"obj":"checkbox","x":700,"y":60,"w":30,"h":30,"parentid":51,"text":"","checked":false}
+
+{"comment" : "======PAGINA 5======"}
+{"page":6,"id":1,"obj":"label","x":100,"y":70,"w":600,"h":30,"bg_color":"#00A6FF","text":"Viernes","text_color":"#000000","align":1,"text_font":30}
+{"comment": "TabView para las tomas de pastillas"}
+{"page":6,"id":14,"obj":"tabview","x":10,"y":120,"w":780,"h":300, "bg_color":"#00A6FF80"}
+
+{"comment": "Pestañas dentro del TabView"}
+{"page":6,"id":51,"obj":"tab","parentid":14,"text":"Desayuno"}
+{"page":6,"id":52,"obj":"tab","parentid":14,"text":"Comida"}
+{"page":6,"id":53,"obj":"tab","parentid":14,"text":"Merienda"}
+{"page":6,"id":54,"obj":"tab","parentid":14,"text":"Cena"}
+
+{"comment": "Checkboxes para horarios en Mañana"}
+{"page":6,"id":101,"obj":"label","x":10,"y":10,"w":700,"h":30,"parentid":51,"text":"Adiro (ácido acetilsalicílico) | 100mg (1 cápsula) | 9:00","text_color":"#000000","align":0,"text_font":24}
+{"page":6,"id":201,"obj":"checkbox","x":700,"y":10,"w":30,"h":30,"parentid":51,"text":"","checked":false}
+{"page":6,"id":102,"obj":"label","x":10,"y":50,"w":700,"h":30,"parentid":51,"text":"Seguril (Furosemida) | 60 mg (1+1/2 comprimidos) | 9:00","text_color":"#000000","align":0,"text_font":24}
+{"page":6,"id":202,"obj":"checkbox","x":700,"y":60,"w":30,"h":30,"parentid":51,"text":"","checked":false}
+
+{"comment" : "======PAGINA 6======"}
+{"page":7,"id":1,"obj":"label","x":100,"y":70,"w":600,"h":30,"bg_color":"#00A6FF","text":"Sábado","text_color":"#000000","align":1,"text_font":30}
+{"comment": "TabView para las tomas de pastillas"}
+{"page":7,"id":14,"obj":"tabview","x":10,"y":120,"w":780,"h":300, "bg_color":"#00A6FF80"}
+
+{"comment": "Pestañas dentro del TabView"}
+{"page":7,"id":51,"obj":"tab","parentid":14,"text":"Desayuno"}
+{"page":7,"id":52,"obj":"tab","parentid":14,"text":"Comida"}
+{"page":7,"id":53,"obj":"tab","parentid":14,"text":"Merienda"}
+{"page":7,"id":54,"obj":"tab","parentid":14,"text":"Cena"}
+
+{"comment": "Checkboxes para horarios en Mañana"}
+{"page":7,"id":101,"obj":"label","x":10,"y":10,"w":700,"h":30,"parentid":51,"text":"Adiro (ácido acetilsalicílico) | 100mg (1 cápsula) | 9:00","text_color":"#000000","align":0,"text_font":24}
+{"page":7,"id":201,"obj":"checkbox","x":700,"y":10,"w":30,"h":30,"parentid":51,"text":"","checked":false}
+{"page":7,"id":102,"obj":"label","x":10,"y":50,"w":700,"h":30,"parentid":51,"text":"Seguril (Furosemida) | 60 mg (1+1/2 comprimidos) | 9:00","text_color":"#000000","align":0,"text_font":24}
+{"page":7,"id":202,"obj":"checkbox","x":700,"y":60,"w":30,"h":30,"parentid":51,"text":"","checked":false}
+
+{"comment" : "======PAGINA 7======"}
+{"page":8,"id":1,"obj":"label","x":100,"y":70,"w":600,"h":30,"bg_color":"#00A6FF","text":"Domingo","text_color":"#000000","align":1,"text_font":30}
+{"comment": "TabView para las tomas de pastillas"}
+{"page":8,"id":14,"obj":"tabview","x":10,"y":120,"w":780,"h":300, "bg_color":"#00A6FF80"}
+
+{"comment": "Pestañas dentro del TabView"}
+{"page":8,"id":51,"obj":"tab","parentid":14,"text":"Desayuno"}
+{"page":8,"id":52,"obj":"tab","parentid":14,"text":"Comida"}
+{"page":8,"id":53,"obj":"tab","parentid":14,"text":"Merienda"}
+{"page":8,"id":54,"obj":"tab","parentid":14,"text":"Cena"}
+
+{"comment": "Checkboxes para horarios en Mañana"}
+{"page":8,"id":101,"obj":"label","x":10,"y":10,"w":700,"h":30,"parentid":51,"text":"Adiro (ácido acetilsalicílico) | 100mg (1 cápsula) | 9:00","text_color":"#000000","align":0,"text_font":24}
+{"page":8,"id":201,"obj":"checkbox","x":700,"y":10,"w":30,"h":30,"parentid":51,"text":"","checked":false}
+{"page":8,"id":102,"obj":"label","x":10,"y":50,"w":700,"h":30,"parentid":51,"text":"Seguril (Furosemida) | 60 mg (1+1/2 comprimidos) | 9:00","text_color":"#000000","align":0,"text_font":24}
+{"page":8,"id":202,"obj":"checkbox","x":700,"y":60,"w":30,"h":30,"parentid":51,"text":"","checked":false}
+
+{"comment" : "======PAGINA 8: Información del Usuario======"}
+{"comment" : "Recuadro para la foto de perfil"}
+{"page":9,"id":1,"obj":"img","x":22,"y":80,"w":150,"h":150,"bg_color":"#FFFFFF","border_color":"#000000","src":"L:/profile-3.png"}
+
+{"comment" : "Etiquetas de información del usuario"}
+{"comment": "Fila - Nombre"}
+{"page":9,"id":52,"obj":"obj","x":210,"y":80,"w":550,"h":40,"click":0,"bg_color":"#00A6FFCC","radius":40, "opacity":100}
+{"page":9,"id":3,"obj":"label","x":670,"y":85,"w":400,"h":30,"text":"Nombre","text_color":"#000000","align":0,"text_font":24, "opacity":120}
+{"page":9,"id":4,"obj":"label","x":220,"y":85,"w":300,"h":30,"text":"Iván","text_color":"#000000","align":0,"text_font":24}
+
+{"comment": "Fila - Apellidos"}
+{"page":9,"id":53,"obj":"obj","x":210,"y":130,"w":550,"h":40,"click":0,"bg_color":"#00A6FFCC","radius":40, "opacity":100}
+{"page":9,"id":5,"obj":"label","x":660,"y":135,"w":400,"h":30,"text":"Apellidos","text_color":"#000000","align":0,"text_font":24, "opacity":120}
+{"page":9,"id":6,"obj":"label","x":220,"y":135,"w":300,"h":30,"text":"García Salgado","text_color":"#000000","align":0,"text_font":24}
+
+{"comment": "Fila - DNI"}
+{"page":9,"id":54,"obj":"obj","x":210,"y":180,"w":550,"h":40,"click":0,"bg_color":"#00A6FFCC","radius":40, "opacity":100}
+{"page":9,"id":7,"obj":"label","x":710,"y":185,"w":400,"h":30,"text":"DNI","text_color":"#000000","align":0,"text_font":24, "opacity":120}
+{"page":9,"id":8,"obj":"label","x":220,"y":185,"w":300,"h":30,"text":"51141855K","text_color":"#000000","align":0,"text_font":24}
+
+{"comment": "Fila - Grupo Sanguíneo"}
+{"page":9,"id":55,"obj":"obj","x":210,"y":230,"w":550,"h":40,"click":0,"bg_color":"#00A6FFCC","radius":40, "opacity":100}
+{"page":9,"id":9,"obj":"label","x":585,"y":235,"w":400,"h":30,"text":"Grupo Sanguíneo","text_color":"#000000","align":0,"text_font":24, "opacity":120}
+{"page":9,"id":10,"obj":"label","x":220,"y":235,"w":300,"h":30,"text":"A+","text_color":"#000000","align":0,"text_font":24}
+
+{"comment": "Fila - Alergias"}
+{"page":9,"id":56,"obj":"obj","x":210,"y":280,"w":550,"h":40,"click":0,"bg_color":"#00A6FFCC","radius":40, "opacity":100}
+{"page":9,"id":11,"obj":"label","x":670,"y":285,"w":400,"h":30,"text":"Alergias","text_color":"#000000","align":0,"text_font":24, "opacity":120}
+{"page":9,"id":12,"obj":"label","x":220,"y":285,"w":300,"h":30,"text":"Ninguna","text_color":"#000000","align":0,"text_font":24}
+
+{"comment": "Fila - Contacto de Emergencia"}
+{"page":9,"id":57,"obj":"obj","x":210,"y":330,"w":550,"h":40,"click":0,"bg_color":"#00A6FFCC","radius":40, "opacity":100}
+{"page":9,"id":13,"obj":"label","x":545,"y":335,"w":400,"h":30,"text":"Contacto Emergencia","text_color":"#000000","align":0,"text_font":24, "opacity":120}
+{"page":9,"id":14,"obj":"label","x":220,"y":335,"w":300,"h":30,"text":"+34 601 08 05 55","text_color":"#000000","align":0,"text_font":24}
+
+{"page":9,"id":60,"obj":"btn","x":20,"y":280,"w":180,"h":60,"radius":35,"bg_color":"#00A6FF","text":"\uE004 Editar","text_color":"#FFFFFF","text_font":24,"action":"p10"}
+{"page":9,"id":0,"next":1}
+
+{"comment" : "======PAGINA 9======"}
+{"page":10,"id":1,"obj":"qrcode","text":"www.openhasp.com/0.7.0/design/objects/","x":300,"y":150,"size":200}
+
+
+
+
+
+
+
+
